@@ -22,12 +22,26 @@ public class BinaryTree {
         return padre;
     }
 
+    public boolean findValue(int n) {
+        return findValueRec(root, n);
+    }
+
+    public boolean findValueRec(Nodo node, int n) {
+        if (node != null) {
+            if (node.getValor() == n) return true;
+            if (node.getValor() < n) return findValueRec(node.getRight(), n);
+            if (node.getValor() > n) return findValueRec(node.getLeft(), n);
+        }
+        return false;
+    }
+
     public void printTree() {
         preOrder(root);
         System.out.println();
         postOrder(root);
         System.out.println();
         inOrder(root);
+        System.out.println();
         
     }
 
