@@ -1,4 +1,4 @@
-# Práctica de la Teoría de la Complejidad
+# Práctica de Arboles y sus Atributos
 
 ## 📌 Información General
 
