@@ -1,18 +1,40 @@
-## Getting Started
+# Práctica de la Teoría de la Complejidad
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Información General
 
-## Folder Structure
+- **Título:** Práctica Nodos
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante(s):** Andres Villalta
+- **Fecha:** 19 de junio del 2025
+- **Profesor:** Ing. Pablo Torres
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Descripción
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Este proyecto implementa como hacer uso de los nodos y calcular sus propiedades como la altura, factor de equilibrio y el peso del arbol en general.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Posterior, se imprimira de forma ordenada todos los datos ordenados a manera de listado.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Compila el código:
+    ```bash
+    javac App.java
+    ```
+2. Ejecuta la aplicación:
+    ```bash
+    java App
+    ```
+
+
+## 📷 Resultado Esperados
+
+![alt text](image.png)
+
+
