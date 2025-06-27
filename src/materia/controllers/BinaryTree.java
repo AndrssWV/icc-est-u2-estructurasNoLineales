@@ -146,8 +146,9 @@ public class BinaryTree {
         for (Map.Entry<Integer, Integer> n : unbalanced.entrySet()) {
             System.out.print(n.getKey() + "(fb  = " + n.getValue() + ") ");
         }
-    
-        
+    }
 
+    public int h() {
+        return root.getHeight();
     }
 }

@@ -1,19 +1,19 @@
+import materia.controllers.AVLTree;
 import materia.controllers.BinaryTree;
 
 public class App {
     public static void main(String[] args) throws Exception {
         
-        BinaryTree bt = new BinaryTree();
-        bt.insert(50);
-        bt.insert(17);
-        bt.insert(76);
-        bt.insert(9);
-        bt.insert(23);
-        bt.insert(54);
-        bt.insert(14);
-        bt.insert(19);
+        AVLTree at = new AVLTree();
+        at.insert(50);
+        at.insert(17);
+        at.insert(76);
+        at.insert(9);
+        at.insert(23);
+        at.insert(54);
+        at.insert(14);
+        at.insert(19);
     
-        bt.print();
 
         //System.err.println("La altura es " + bt.getHeightTree());
         //System.err.println("El factor es " + bt.getFactor());
